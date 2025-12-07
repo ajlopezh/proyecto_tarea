@@ -1,0 +1,32 @@
+
+footer {
+    background-color: blueviolet;
+}
+
+#footer-contenedor{
+    display:flex;
+}
+
+.footer-contenedor-secundario{
+    border-color: aquamarine;
+    width: 800px;
+    margin: 20px;
+}
+
+.footer-contenedor-secundario ul{
+    
+    margin: 0;
+    padding: 0;
+    
+    display: flex;
+    flex-direction: column;
+    
+    list-style: none;
+    gap: 5px;
+    
+}
+
+.footer-contenedor-secundario a{
+    text-decoration: none;
+    color: inherit;
+}
