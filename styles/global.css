@@ -23,3 +23,7 @@ body{
 .icon-tabler-watch {
     color: var(--color-amarillo); /* Esto rellena el SVG porque tiene fill="currentColor" */
 }
+
+.icon-tabler-factory {
+    color: var(--color-amarillo); /* Esto rellena el SVG porque tiene fill="currentColor" */
+}
