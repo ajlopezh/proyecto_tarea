@@ -1,0 +1,24 @@
+# ========================
+# Sistema operativo
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================
+# Editores / IDE
+# ========================
+.vscode/
+.idea/
+
+# ========================
+# Archivos temporales
+# ========================
+*.log
+tmp/
+
+# ========================
+# Build (por si luego evoluciono)
+# ========================
+dist/
+build/
