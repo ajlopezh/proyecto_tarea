@@ -1,0 +1,25 @@
+*{
+    font-family: "Sans-Serif", Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color-amarillo: #ffc246;
+   
+}
+
+.icon-tabler-phone {
+    color: var(--color-amarillo); /* Esto rellena el SVG porque tiene fill="currentColor" */
+}
+
+.icon-tabler-mail {
+    color: var(--color-amarillo); /* Esto rellena el SVG porque tiene fill="currentColor" */
+}
+
+.icon-tabler-watch {
+    color: var(--color-amarillo); /* Esto rellena el SVG porque tiene fill="currentColor" */
+}
