@@ -78,6 +78,7 @@ nav .inicio {
     color: var(--color-amarillo);
 }
 
+/* La siguiente instrucción indica que cuando me pare sobre una opción de la lista de NAV cambia de color */
 nav a:hover {
     color: var(--color-amarillo) /* color diferente al amarillo original */
 }
@@ -93,7 +94,6 @@ nav a:hover {
     font-size: 14px;
     color: #384D6299
     
-    
 }
 
 .secciones a{
@@ -101,7 +101,75 @@ nav a:hover {
     color: inherit;
 }
 
+/* Esta es la parte del banner */
 
+.banner{
+    
+    min-height: 50vh;    /* se adapta al tamaño de pantalla */
+    max-height: 600px;
+
+    background-image: url("../assets/images/homa-appliances-unsplash.jpg");
+    background-color: rgba(0, 0, 0, 0.45); /*Esta opción la uso para oscurecer la imágen de fondo un poco para aumentar la legibilidad del texto */
+    background-blend-mode: multiply; /* Esto es importante porque va con lo de arriba. Se pone como una pantalla encima de la imágen que está transparente y oscurecida en la cantidad que indica la última parte del código rgb */
+
+    background-size: cover; /*Escala y cubre todo el contenedor*/
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+ 
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 60px 20px; /* aire real */
+
+}
+
+.banner-contenedor-informacion{
+    
+    max-width: 700px;
+    width: 100%;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 30px;
+    padding: 40px;
+
+    text-align: center;
+    color: white;
+
+}
+
+.banner-contenedor-informacion h1{
+    
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    font-size: clamp(28px, 5vw, 50px);
+}
+
+.banner-contenedor-informacion p{
+    font-family: 'Open sans', sans-serif;
+}
+
+.banner-contenedor-informacion a{
+    background-color: var(--color-amarillo);
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding: 8px 25px;
+
+    text-decoration: none;
+    color: black;
+
+    font-family: 'Open Sans', sans-serif; /* fuente */
+    font-size: 14px;                      /* tamaño */
+    font-weight: bold; 
+
+}
 
 footer {
     background-color: blueviolet;
