@@ -9,6 +9,7 @@ body{
 
 :root {
     --color-amarillo: #ffc246;
+    --text-color: #5a5a5a;
    
 }
 
@@ -26,4 +27,16 @@ body{
 
 .icon-tabler-factory {
     color: var(--color-amarillo); /* Esto rellena el SVG porque tiene fill="currentColor" */
+}
+
+.icon-tabler-backhoe{
+    color: var(--color-amarillo); /* Esto rellena el SVG porque tiene fill="currentColor" */
+}
+
+.icon-tabler-frustum{
+    color: var(--color-amarillo);
+}
+
+.icon-tabler-building-factory{
+    color: var(--color-amarillo)
 }

@@ -198,6 +198,78 @@ nav a:hover {
     text-decoration: underline;
 }
 
+/*Aquí comienza el estilado para las líneas de negocio*/
+
+.LN_contenedor{
+    
+    margin:0;
+    padding: 0 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.LN_contenedor_info_titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.LN_contenedor_info_titulo h2{
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    font-size: clamp(28px, 5vw, 45px);
+    margin:0;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    
+}
+
+.LN_contenedor_info_titulo p{
+    
+    width: 60%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin: 200;
+    text-align: center;
+    
+    
+    color: var(--text-color);
+
+}
+
+.LN_contenedor_info_negocios{
+
+    display: flex;
+    flex-wrap: wrap; /*Si no caben las cajas, bajan*/
+    gap: 40px;
+    margin: 40px;
+}
+
+.LN_contenedor_info_contenido{
+    flex: 1 1 calc(33.333% - 40px); /*33.3% significa 3 cajas por fila*/
+    max-width: calc(33.333% - 40px);
+}
+
+.LN_contenedor_info_contenido h3{
+    margin:0;
+    border:10px;
+}
+
+.LN_contenedor_info_contenido p{
+    margin:0;
+    margin-top: 12px;
+    margin-bottom: 20px;
+    border:0px;
+    color: var(--text-color);
+}
+
+
+
+/*Aquí comienza el estilado para footer*/
+
 footer {
     background-color: blueviolet;
 }
