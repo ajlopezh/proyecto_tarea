@@ -108,7 +108,7 @@ nav a:hover {
     min-height: 50vh;    /* se adapta al tamaño de pantalla */
     max-height: 600px;
 
-    background-image: url("../assets/images/homa-appliances-unsplash.jpg");
+    background-image: url("../assets/Images/homa-appliances-unsplash.jpg");
     background-color: rgba(0, 0, 0, 0.45); /*Esta opción la uso para oscurecer la imágen de fondo un poco para aumentar la legibilidad del texto */
     background-blend-mode: multiply; /* Esto es importante porque va con lo de arriba. Se pone como una pantalla encima de la imágen que está transparente y oscurecida en la cantidad que indica la última parte del código rgb */
 
