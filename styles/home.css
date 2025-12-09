@@ -483,6 +483,79 @@ nav a:hover {
     
 }
 
+/* Aquí estilado para contáctanos */
+.contactanos{
+    background-image: url("../assets/Images/team.jpg");
+    background-size: cover;       /* cubre todo el contenedor */
+    background-position: center;  /* centra la imagen */
+    background-repeat: no-repeat; /* no se repite */
+
+    background-color: rgba(0, 0, 0, 0.45); /*Esta opción la uso para oscurecer la imágen de fondo un poco para aumentar la legibilidad del texto */
+    background-blend-mode: multiply; /* Esto es importante porque va con lo de arriba. Se pone como una pantalla encima de la imágen que está transparente y oscurecida en la cantidad que indica la última parte del código rgb */
+
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 10px;
+    
+}
+
+.contactanos h1{
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    font-size: clamp(28px, 5vw, 28px);
+    margin:0;
+    color:white;
+}
+
+.contactanos p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-align: center; 
+    color:white;
+    margin:0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 75%;  
+}
+
+.contenedor_correo {
+
+    width: 800px;      /* ancho fijo */
+    max-width: 90%;    /* opcional, para que se reduzca en pantallas pequeñas */
+    padding: 20px;     /* espacio interno */
+    background-color: none;  /* opcional, color de fondo */
+    border-radius: 8px; /* bordes redondeados */
+    box-sizing: border-box; /* importante para que padding no aumente el ancho total */
+    margin: 0 auto;    /* centra horizontalmente el contenedor */
+}
+
+
+
+.rightside-form input[type="email"] {
+    width: 70%;          /* ocupa 70% del ancho del contenedor */
+    padding: 10px;       /* altura y espacio interno */
+    font-size: 16px;     /* tamaño del texto */
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-right: 10px;  /* separación con el botón */
+}
+
+.rightside-form button {
+    width: 25%;          /* ocupa el resto del espacio disponible */
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #ffc246;
+    color: black;
+    cursor: pointer;
+}
+
 /*Aquí comienza el estilado para footer*/
 
 footer {
