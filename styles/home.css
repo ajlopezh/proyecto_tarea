@@ -560,7 +560,8 @@ nav a:hover {
 /*Aquí comienza el estilado para footer*/
 
 footer {
-    background-color: blueviolet;
+    color: white;
+    background-color: #384d62;
 }
 
 .footer-contenedor{
@@ -573,8 +574,8 @@ footer {
 }
 
 .footer-contenedor-principal{
-    background-color: aquamarine;
     width: 40%;
+    margin-right: 30px;
 }
 
 .footer-contenedor-principal h2{
@@ -587,17 +588,15 @@ footer {
 
 .footer-contenedor-secundario-grande{
     display: flex;
-    background-color: #e2e2e2;
     flex: 1;
     gap: 20px;
     
 
 }
 
+
 .footer-contenedor-secundario{
-    background-color: red;
     flex: 1;
-    
 }
 
 .footer-contenedor-secundario h2{
@@ -627,7 +626,6 @@ footer {
 }
 
 .footer-redes{
-    background-color: chartreuse;
     display: flex;
     justify-content: center;
     margin: 0;
@@ -638,7 +636,6 @@ footer {
 .lista-redes{
     display: flex;
     gap: 20px;
-    background-color: #ffc246;
     list-style: none;
     margin: 0;
 }
@@ -651,7 +648,6 @@ footer {
 }
 
 #footer-disclaimer {
-    background-color: greenyellow;
     display: flex;
     justify-content: center;
 }

@@ -10,6 +10,7 @@ body{
 :root {
     --color-amarillo: #ffc246;
     --text-color: #5a5a5a;
+    --redes-color: white;
    
 }
 
@@ -39,4 +40,24 @@ body{
 
 .icon-tabler-building-factory{
     color: var(--color-amarillo)
+}
+
+.icon-tabler-brand-facebook{
+    color: var(--redes-color);
+}
+
+.icon-tabler-brand-instagram{
+    color: var(--redes-color);
+}
+
+.icon-tabler-brand-x{
+    color: var(--redes-color);
+}
+
+.icon-tabler-brand-linkedin{
+    color: var(--redes-color);
+}
+
+.icon-tabler-brand-youtube{
+    color: var(--redes-color);
 }
