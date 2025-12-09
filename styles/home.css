@@ -363,7 +363,125 @@ nav a:hover {
     font-weight: bold; 
 }
 
+/* Quienes somos */
 
+.quienes-somos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+
+.quienes-somos-titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quienes-somos-titulo h3{
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    font-size: clamp(28px, 5vw, 45px);
+    margin:0;
+    margin-bottom: 20px;
+}
+
+.quienes-somos-titulo p{
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-align: center;
+      
+    color: var(--text-color);
+    margin:0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 75%;      
+
+}
+
+.quienes-somos-contenedor-titulo{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.quienes-somos-contenedor-global{
+    display: flex;
+    margin: 0;
+    margin-top: 10px;
+
+}
+
+
+.quienes-somos-contenedor{
+    margin:0;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+    margin: 0;
+
+}
+
+.quienes-somos-contenedor h3{
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    font-size: clamp(28px, 5vw, 28px);
+    margin:0;
+    color:#384d62;
+}
+
+.quienes-somos-contenedor a{
+    background-color: var(--color-amarillo);
+    height: 30px;
+    width: 100px;
+    
+    display: flex;
+    align-items: center;
+    padding: 8px 25px;
+
+    text-decoration: none;
+    color: black;
+
+    font-family: 'Open Sans', sans-serif; /* fuente */
+    font-size: 14px;                      /* tamaño */
+    font-weight: bold; 
+
+}
+
+.quienes-somos-contenedor img{
+    margin:0;
+    width: 100%;    
+    object-fit: cover;
+    display: block;
+
+}
+
+.quienes-somos-contenedor-lista{
+    margin:0;
+    margin-bottom: 30px;
+}
+
+.quienes-somos-parrafos-inferiores{
+    display: flex;
+    margin: 0;
+    margin-top: 40px;
+    gap: 10px;
+    
+}
+
+.quienes-somos-parrafos-inferiores a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif; /* fuente */
+    font-size: 22px;                      /* tamaño */
+    font-weight: bold; 
+    
+}
 
 /*Aquí comienza el estilado para footer*/
 
