@@ -493,10 +493,11 @@ nav a:hover {
     background-color: rgba(0, 0, 0, 0.45); /*Esta opción la uso para oscurecer la imágen de fondo un poco para aumentar la legibilidad del texto */
     background-blend-mode: multiply; /* Esto es importante porque va con lo de arriba. Se pone como una pantalla encima de la imágen que está transparente y oscurecida en la cantidad que indica la última parte del código rgb */
 
-    
+    height: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: bottom;
     margin: 0;
     margin-bottom: 10px;
     padding: 10px;
@@ -587,4 +588,8 @@ footer {
 .footer-contenedor-secundario a{
     text-decoration: none;
     color: inherit;
+}
+
+.lista-redes{
+    display: flex;
 }
